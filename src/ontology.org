@@ -1,0 +1,31 @@
+#+TITLE: Physical representation of word's meaning
+
+  Words mean nothing to a computer. So we have to give them meaning,
+  which will be a physical representation of objects in the 3D
+  world. The world has physical forces, logic and time. Some words
+  have no physical representation, so they will be deduced to a
+  physical representation with a closest meaning. Phrases will be
+  represented by an interaction of objects, that follow laws of
+  physics and logic. The result of this simulation will represent a
+  phase meaning. Concatenation of such sentences will be a text. The
+  world has a state that evolves over time.
+
+  A word can have a function, that cat be applied to other words, that
+  can be learned from context and dynamical interaction with other
+  words.
+
+  The first step is to detect part of speech and build a dependency
+  parsing tree of words. The arcs of dependency parsing tree will
+  emulate time and causal relationship inside a sentence.
+
+** Parts of speech:
+  1) Nouns will represent objects in the physical world.
+  2) Verbs, adverbs and adjectives are deduced from underlining nouns by means of forces
+  3) Adjectives will be represented as a pointer to a corresponding noun or to an abstract object if it can't be determined from context
+  4) Prepositions will indicate positions and relation of objects
+  5) Conjunctions and articles will be used for logical inference
+
+
+| word | POS | function | dims | State of matter |
+|------+-----+----------+------+-----------------|
+| как  |     |          |      |                 |
